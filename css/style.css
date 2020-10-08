@@ -2,11 +2,91 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
+}
+html{
 	font-size: 62.5%;
 }
 body{
 	padding: 0;
 	margin: 0;
 }
+.header{
+	position: relative;
+}
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 .5rem;
+	background-color: #1D3557;
+	height:5rem;
+	border-bottom: solid .1rem rgba(241, 250, 238, .4);
+}
+#nav-menu-toggle{
+	display: none;
+}
+.burger-menu-icon{
+	border: solid .1rem #A8DADC;
+	border-radius: .5rem;
+	padding:0 .2rem;
+}
+
+.burger-menu-line{
+	height:.2rem;
+	width: 3.5rem;
+	background-color: #F1FAEE;
+	margin-top: .6rem;
+}
+.line-3{
+	margin-bottom: .6rem;
+
+}
+#nav{
+	width: 100%;
+	position: absolute;
+	left: -250rem;
+	background-color:rgba(29, 53, 87, .8);
+	transition: all 6s ;
+	z-index: 200;
+	opacity: 1;
+}
+.nav-items{
+	height: 70vh;
+	display: block;
+	margin:0 auto;
+	list-style: none;
+	text-align: center;
+	transition: all .6s; 
+	display:flex;
+	font-size: 1.5rem;
+	flex-direction: column;
+	justify-content: space-around;
+	
+	color: #F1FAEE;
+	padding: 0;
+	width: 100%;
+
+}
+
+.nav-item{
+	padding:40px 0 0 0;
+	height: 100%;
+	overflow: hidden;
+	background:linear-gradient(to right, rgba(29, 53, 87, 1), rgba(230, 57, 70, .6) 50%, rgba(29, 53, 87,.8) 50%) ;
+	background-clip: text;
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: all .7s ease;
+	font-weight: bolder;
+}
+
+.nav-item:hover{
+	background-position: 0 100%;
+}
+#nav-menu-toggle:checked ~ #nav{
+	left: 0rem;
+}
+
 
 
