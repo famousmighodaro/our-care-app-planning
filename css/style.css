@@ -47,7 +47,7 @@ body{
 	position: absolute;
 	left: -250rem;
 	background-color:rgba(29, 53, 87, .8);
-	transition: all 6s ;
+	transition: all .8s ease-out;
 	z-index: 200;
 	opacity: 1;
 }
@@ -72,12 +72,11 @@ body{
 .nav-item{
 	padding:40px 0 0 0;
 	height: 100%;
-	overflow: hidden;
 	background:linear-gradient(to right, rgba(29, 53, 87, 1), rgba(230, 57, 70, .6) 50%, rgba(29, 53, 87,.8) 50%) ;
 	background-clip: text;
 	background-size: 200% 100%;
 	background-position: 100%;
-	transition: all .7s ease;
+	transition: all .8s ease;
 	font-weight: bolder;
 }
 
