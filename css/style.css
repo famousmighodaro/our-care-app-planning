@@ -11,6 +11,7 @@ body{
 	padding: 0;
 	margin: 0;
 }
+/* header navigation styling  */
 .header{
 	position: relative;
 }
@@ -87,5 +88,10 @@ body{
 	left: 0rem;
 }
 
+/*  End of header navigation styling */
 
+
+/* Assignment and author details stlying */
+
+/* end of assignment and author details stlying */
 
