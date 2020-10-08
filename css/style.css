@@ -90,8 +90,24 @@ body{
 
 /*  End of header navigation styling */
 
-
 /* Assignment and author details stlying */
+.content{
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-top: 10rem;
+}
+
+.content span{
+	font-weight: bolder;
+}
+
+.content span:after{
+	content: "  ";
+}
 
 /* end of assignment and author details stlying */
 
