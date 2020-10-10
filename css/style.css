@@ -30,6 +30,9 @@ body{
 	background-color: #1D3557;
 	height:5rem;
 	border-bottom: solid .1rem rgba(241, 250, 238, .4);
+	color: #F1FAEE;
+	font-size: 1.9rem;
+	font-weight: bolder;
 }
 #nav-menu-toggle{
 	display: none;
