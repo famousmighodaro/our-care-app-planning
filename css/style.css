@@ -6,12 +6,19 @@
 }
 html{
 	font-size: 62.5%;
+	box-sizing: border-box;
 }
 body{
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	
 }
 /* header navigation styling  */
+.page-container{
+	position: relative;
+	min-height:100vh; 
+}
 .header{
 	position: relative;
 }
@@ -92,6 +99,7 @@ body{
 
 /* Assignment and author details stlying */
 .content{
+	
 	height: 70vh;
 	display: flex;
 	flex-direction: column;
@@ -111,3 +119,16 @@ body{
 
 /* end of assignment and author details stlying */
 
+/* footer styling */
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #1D3557;
+	height: 5rem;
+	color: #F1FAEE;
+	text-align: center;
+	font-size: 1.3rem;
+	padding-top: 1.3rem;
+}
+/* end of footer styling */
