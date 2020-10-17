@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+/* Assignment and author details stlying */
+.content{
+	
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-top: 10rem;
+}
+
+.content span{
+	font-weight: bolder;
+}
+
+.content span:after{
+	content: "  ";
+}
+
+/* end of assignment and author details stlying */
+
+/* footer styling */
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #1D3557;
+	height: 5rem;
+	color: #F1FAEE;
+	text-align: center;
+	font-size: 1.3rem;
+	padding-top: 1.3rem;
+}
+/* end of footer styling */
