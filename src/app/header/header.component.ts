@@ -16,12 +16,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  
-  
+
+
   onPageChange(requestedPage) {
  	this.requestedPage = requestedPage;
 
- 	console.log(this.checked);
+ 	console.log(this.requestedPage);
  	this.checked = false;
   }
 

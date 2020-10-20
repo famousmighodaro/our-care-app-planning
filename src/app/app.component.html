@@ -2,5 +2,6 @@
 	<app-header #header></app-header>
 	<app-welcome-page *ngIf="headerComponent.requestedPage===1"></app-welcome-page>
 	<app-project-goals *ngIf="headerComponent.requestedPage===2"></app-project-goals>
+  <app-personas *ngIf="headerComponent.requestedPage===3"></app-personas>
 	<app-footer></app-footer>
 </div>
