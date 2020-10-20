@@ -7,29 +7,39 @@
 html{
 	font-size: 62.5%;
 	box-sizing: border-box;
+	height: 100%;
 }
 body{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	height: 100%;
 	
 }
 
+.page-container{
+	position: relative;
+	flex-direction: column;	
+	min-height: 100%;
+
+}
 
 /* Assignment and author details stlying */
 .content{
 	
-	height: 70vh;
+	height: 86vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	text-align: center;
 	font-size: 1.6rem;
 	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
 .content span{
 	font-weight: bolder;
+
 }
 
 .content span:after{
@@ -40,8 +50,7 @@ body{
 
 /* footer styling */
 .footer{
-	position: absolute;
-	bottom: 0;
+	margin-top: auto;
 	width: 100%;
 	background-color: #1D3557;
 	height: 5rem;
@@ -49,5 +58,7 @@ body{
 	text-align: center;
 	font-size: 1.3rem;
 	padding-top: 1.3rem;
+	bottom: 0;
+	left: 0;
 }
 /* end of footer styling */

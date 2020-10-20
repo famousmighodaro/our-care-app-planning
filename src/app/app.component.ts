@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { HeaderComponent} from "./header/header.component";
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'outpatients-care-planning';
+
+  @ViewChild('header', {static: true}) 
+  headerComponent:HeaderComponent;
+
+  checked=true;
+
+  onChecked(checked){
+  	if (checked===true) {
+  		this.checked=false
+  	}else{
+  		this.checked=true;
+  	}
+  }
+
 }

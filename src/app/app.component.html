@@ -1,3 +1,6 @@
-<app-header></app-header>
-<app-welcome-page></app-welcome-page>
-<app-footer></app-footer>
+<div class="page-container">
+	<app-header #header></app-header>
+	<app-welcome-page *ngIf="headerComponent.requestedPage===1"></app-welcome-page>
+	<app-project-goals *ngIf="headerComponent.requestedPage===2"></app-project-goals>
+	<app-footer></app-footer>
+</div>
