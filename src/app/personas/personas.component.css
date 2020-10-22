@@ -1,0 +1,48 @@
+
+
+.personas-page-content{
+	padding-left: 1.5rem;
+	padding-top:1.5rem;
+	padding-right:1.5rem;
+	font-size: 1.6rem;
+}
+
+#image-holder{
+  width:20rem;
+  height:20rem;
+  margin:0 auto;
+  border:solid 5px grey;
+  border-radius:50%;
+  overflow: hidden;
+}
+#nurse-image{
+	position: relative;
+  	width:180%;
+  	height:auto;
+  	left:-5rem;
+
+}
+.bio, .needs, .goals{
+	margin-top: 1.2rem;
+}
+.bio span{
+	font-weight: bolder;
+}
+.needs{
+	line-height: 2.3rem;
+}
+
+li{
+	margin-top: 1rem;
+}
+
+.steps{
+	
+	padding-left: 1rem;
+
+	
+}
+
+/* End personas page styling */
+
+

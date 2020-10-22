@@ -25,6 +25,9 @@ body{
 
 }
 
+.welcome-page-content, .personas-page-content{
+	padding-bottom: 5.5rem;
+}
 /* Assignment and author details stlying */
 .content{
 	
