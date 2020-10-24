@@ -8,6 +8,7 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ProjectGoalsComponent } from './project-goals/project-goals.component';
 import { PersonasComponent } from './personas/personas.component';
 import { SketchesComponent } from './sketches/sketches.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SketchesComponent } from './sketches/sketches.component';
     SketchesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
