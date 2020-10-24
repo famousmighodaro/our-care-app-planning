@@ -9,6 +9,7 @@ import { ProjectGoalsComponent } from './project-goals/project-goals.component';
 import { PersonasComponent } from './personas/personas.component';
 import { SketchesComponent } from './sketches/sketches.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TechnologiesComponent } from './technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
     WelcomePageComponent,
     ProjectGoalsComponent,
     PersonasComponent,
-    SketchesComponent
+    SketchesComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule,
