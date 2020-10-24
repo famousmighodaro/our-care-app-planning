@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ProjectGoalsComponent } from './project-goals/project-goals.component';
 import { PersonasComponent } from './personas/personas.component';
+import { SketchesComponent } from './sketches/sketches.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PersonasComponent } from './personas/personas.component';
     FooterComponent,
     WelcomePageComponent,
     ProjectGoalsComponent,
-    PersonasComponent
+    PersonasComponent,
+    SketchesComponent
   ],
   imports: [
     BrowserModule
