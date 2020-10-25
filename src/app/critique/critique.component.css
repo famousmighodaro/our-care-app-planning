@@ -1,0 +1,42 @@
+h1{
+	margin-top:3.6rem;
+	text-align: center;
+}
+
+
+.critiques{
+	padding: 3rem 1rem;
+	padding-bottom: 5.5rem;
+}
+
+h3{
+	margin-top: 1.6rem;
+	padding-left:1.6rem;
+	
+}
+.critique{
+	font-size: 1.6rem;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+}
+.critique-app-img{
+	width: 50rem;
+	margin-right: 1rem;
+	padding-right: 1.9rem;
+}
+.critique img{
+	max-height: 100%;
+	width: 100%;
+	align-self: flex-start;
+}
+
+.critique-app-info{
+	padding-left: 1rem;
+}
+
+
+@media (min-width:743px ) {
+	
+}
