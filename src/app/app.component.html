@@ -4,6 +4,7 @@
 	<app-project-goals *ngIf="headerComponent.requestedPage===2"></app-project-goals>
   <app-personas *ngIf="headerComponent.requestedPage===3"></app-personas>
   <app-sketches [hidden]="headerComponent.requestedPage!==4"></app-sketches>
+  <app-critique *ngIf="headerComponent.requestedPage===5"></app-critique>
   <app-technologies *ngIf="headerComponent.requestedPage===6"></app-technologies>	
 	<app-footer></app-footer>
 </div>
