@@ -72,6 +72,9 @@
 	text-decoration: none;
 }
 
+.nav-item:last-child{
+	margin-bottom: 4.6rem;
+}
 .nav-item:hover{
 	font-size: 1.8rem;
 	cursor: pointer;
