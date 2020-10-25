@@ -25,11 +25,15 @@ h1{
 	padding-left:.4rem;
 }
 .technology-knowledge{
-	width: 30;
+	width: 30%;
 	margin-right:1.6rem;
 }
 
 .technology-learning{
 	width: 40%;
+}
+
+.technology-name p{
+	font-weight: bolder;
 }
 
